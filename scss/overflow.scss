@@ -1,0 +1,13 @@
+$otypes: (
+    o: "overflow",
+    oy: "overflow-y",
+    ox: "overflow-x"
+);
+
+@each $key, $val in $otypes {
+    @each $value in ("hidden", "scroll") {
+        .#{$key}-#{$value} {
+            #{$val}: #{$value};
+        }
+    }
+}

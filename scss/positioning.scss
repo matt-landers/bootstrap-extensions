@@ -1,0 +1,19 @@
+@each $value in ("absolute", "relative", "fixed", "static", "sticky") {
+    .position-#{$value} {
+        position: #{$value} !important;
+    }
+}
+
+$positionValues: (
+    0: 0, 
+    50: 50%, 
+    100: 100%
+);
+
+@each $position in ("left", "right", "top", "bottom") {
+    @each $key, $val in $positionValues {
+        .#{$position}-#{$key} {
+            #{$position}: $val;
+        }
+    }
+}

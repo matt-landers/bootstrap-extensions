@@ -1,0 +1,19 @@
+@for $i from 1 through 10 {
+    .h-#{$i}-em {
+        height: unquote('#{$i}em !important');
+    }
+    .w-#{$i}-em {
+        width: unquote('#{$i}em !important');
+    }
+}
+
+@for $i from 1 through 100 {
+    @if $i % 5 == 0 {
+        .h-#{$i}-vh {
+            height: unquote('#{$i}em !important');
+        }
+        .w-#{$i}-vw {
+            width: unquote('#{$i}em !important');
+        }
+    }
+}
