@@ -5,7 +5,7 @@ $weightCount: 9;
     }
 }
 
-$sizeCount: 9;
+$sizeCount: 20;
 @for $i from 1 through $sizeCount {
     .font-size-#{$i} {
         font-size: unquote('#{$i*.25}em') !important;
