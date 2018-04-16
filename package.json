@@ -7,6 +7,10 @@
     "build": "node-sass build.scss dist/bootstrap-extensions.css --output-style compressed"
   },
   "author": "Matt Landers",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:matt-landers/bootstrap-extensions"
+  },
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.8.3"

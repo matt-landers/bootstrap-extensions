@@ -4,6 +4,14 @@ This repository contains a set of extensions for Bootstrap 4's utility classes.
 
 I consistently find myself adding these to projects, so I'm making the available to anyone that wants to use them.
 
+## Usage
+
+`<link src="/node_modules/bootstrap-extensions/dist/bootstrap-extensions.css">`
+
+Build with your project by copying the build.scss (`/node_modules/bootstrap-extensions/build.scss`) file to your project and changing the `@import` paths to work with your project configuration.
+
+** You can also only important the files you want as they all work indepedently of each other.
+
 ## Table of Contents
 
 - [Typograpy](#typography)
