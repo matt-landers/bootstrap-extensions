@@ -1,13 +1,13 @@
 $weightCount: 9;
 @for $i from 1 through $weightCount {
-    .font-weight-#{$i}00 {
+    .fw-#{$i}00 {
         font-weight: unquote('#{$i}00') !important;
     }
 }
 
 $sizeCount: 20;
 @for $i from 1 through $sizeCount {
-    .font-size-#{$i} {
+    .fs-#{$i} {
         font-size: unquote('#{$i*.25}em') !important;
     }
 }

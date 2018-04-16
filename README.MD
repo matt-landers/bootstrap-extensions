@@ -14,20 +14,28 @@ I consistently find myself adding these to projects, so I'm making the available
 
 All font weights (100-900) are available.
 
+* `.fw-100`
+* `...`
+* `.fw-900`
+
 Example:
 ```css
-.font-weight-100 {
+.fw-100 {
     font-weight: 100 !important;
 }
 ```
 
 ### Font Size
 
-Font sizes from .25em through 5em via .25em increments starting at font-size-1.
+Font sizes from .25em through 5em via .25em increments starting at fs-1.
+
+* `.fs-1` 
+* `...`
+* `.fs-20`
 
 Example:
 ```css
-.font-size-1 {
+.fs-1 {
     font-size: .25em !important;
 }
 ```
@@ -36,7 +44,11 @@ Example:
 
 ### Position
 
-Positioning values for absolute, relative, fixed, static, and sticky.
+* `.position-absolute`
+* `.position-fixed`
+* `.position-relative`
+* `.position-static`
+* `.position-sticky`
 
 Example:
 ```css
@@ -48,6 +60,11 @@ Example:
 ### Position Locations
 
 Position for left, right, top bottom with the values of 0, 50%, and 100%;
+
+* `.left-0`, `.left-50`, `.left-100`
+* `.right-0`, `.right-50`, `.right-100`
+* `.top-0`, `.top-50`, `.top-100`
+* `.bottom-0`, `.bottom-50`, `.bottom-100`
 
 Exmaples:
 ```css
@@ -65,6 +82,10 @@ Exmaples:
 ## Overflow
 
 Overflow for each property (overflow (o), overflow-y (oy), overflow-x (ox)) and value hidden and scroll.
+
+* `.o-hidden`, `.o-scroll`
+* `.ox-hidden`, `.ox-scroll`
+* `.oy-hidden`, `.oy-scroll`
 
 Example:
 
