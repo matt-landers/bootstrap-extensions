@@ -6,7 +6,13 @@ I consistently find myself adding these to projects, so I'm making the available
 
 ## Table of Contents
 
-- [Typograpy](#background)
+- [Typograpy](#typography)
+  - [Font Size](#font-size)
+  - [Font Weight](#font-weight)
+- [Positioning](#positioning)
+  - [Position](#position)
+  - [Location](#location)
+- [Overflow](#overflow)
 
 ## Typography
 
@@ -57,7 +63,7 @@ Example:
 }
 ```
 
-### Position Locations
+### Location
 
 Position for left, right, top bottom with the values of 0, 50%, and 100%;
 
