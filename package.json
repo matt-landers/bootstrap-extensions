@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-extensions",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A set of utility extensions for Bootstrap.",
   "main": "index.js",
   "scripts": {
