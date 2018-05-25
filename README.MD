@@ -8,7 +8,8 @@ I consistently find myself adding these to projects, so I'm making the available
 
 `<link src="/node_modules/bootstrap-extensions/dist/bootstrap-extensions.css">`
 
-Build with your project by copying the build.scss (`/node_modules/bootstrap-extensions/build.scss`) file to your project and changing the `@import` paths to work with your project configuration.
+You can also build with your project by importing build.scss as long as you are using sass:
+`@import "/node_modules/bootstrap-extensions/build.scss";`
 
 ** You can also only important the files you want as they all work indepedently of each other.
 
@@ -106,6 +107,16 @@ Example:
 ```css
 .o-hidden {
     overflow: hidden !important;
+}
+```
+
+## Cursor
+
+All available cursors can be referenced via `c-stylename`:
+
+```css
+.c-pointer {
+    cursor: pointer;
 }
 ```
 
