@@ -1,7 +1,11 @@
 @for $i from 0 through 95 {
     @if $i % 5 == 0 {
         .opacity-#{$i} {
-            opacity: unquote('.#{$i}em !important');
+            opacity: unquote('.#{$i} !important');
         }
     }
+}
+
+.opacity-1 {
+    opacity: 1 !important;
 }
