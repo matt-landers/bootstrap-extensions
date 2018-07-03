@@ -22,6 +22,8 @@ You can also build with your project by importing build.scss as long as you are 
   - [Position](#position)
   - [Location](#location)
 - [Overflow](#overflow)
+- [Cursor](#cursor)
+- [Opacity](#opacity)
 
 ## Typography
 
@@ -117,6 +119,16 @@ All available cursors can be referenced via `c-stylename`:
 ```css
 .c-pointer {
     cursor: pointer;
+}
+```
+
+## Cursor
+
+Opacity at .5 increments from 0-.95:
+
+```css
+.opacity-25 {
+    opacity: .25;
 }
 ```
 
