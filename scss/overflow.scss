@@ -5,7 +5,7 @@ $otypes: (
 );
 
 @each $key, $val in $otypes {
-    @each $value in ("hidden", "scroll") {
+    @each $value in ("hidden", "scroll", "auto") {
         .#{$key}-#{$value} {
             #{$val}: #{$value};
         }
